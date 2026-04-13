@@ -1,0 +1,18 @@
+# Build directories
+build/
+bin/
+*.o
+*.out
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.sln
+
+# macOS
+.DS_Store
+
+# Data (Ignore large video files but keep the directory)
+data/*
+!data/.keep
